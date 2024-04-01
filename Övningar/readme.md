@@ -30,7 +30,7 @@ Din *Header* skall innehåla ett formulär där användaren kan ange hur många 
 
 Fundera på strukturen i din applikation, vilka tillståndsvariabler behöver du använda, och var någonstans bör de ligga?
 
-Förolämpningarna hittar du i *insults.json* i *assets*-mappen.
+Förolämpningarna hittar du i ```insults.json``` i *assets*-mappen.
 
 Tips på typsnitt: [MedievalSharp](https://fonts.google.com/specimen/MedievalSharp), [IM Fell English SC](https://fonts.google.com/specimen/IM+Fell+English+SC).
 

@@ -14,7 +14,7 @@
 - [useState - Dokumentation](https://react.dev/reference/react/useState).
 
 ## Övningar
-Hittar ni i mappen [Övningar]().
+Hittar ni i mappen [Övningar](https://github.com/Santosnr6/lektion_2_april/tree/main/%C3%96vningar).
 
 ## Liveföreläsning
 - [Repetition props + events]().

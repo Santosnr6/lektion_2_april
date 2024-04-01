@@ -4,7 +4,7 @@
 
 ### Bokhandeln
 
-I denna övning ska du göra bygga vidare på [din bokhandel](https://github.com/Santosnr6/lektion_27_mars/tree/main/%C3%96vningar) och skapa verklig funktionalitet. Använd dig av eventlyssnare, samt tillståndsvariabler, för att automatiskt uppdatera varukorgens saldo vaje gång en användare klickar på *Add to cart*.  
+I denna övning ska du göra bygga vidare på [din bokhandel](https://github.com/Santosnr6/lektion_27_mars/tree/main/%C3%96vningar) och skapa verklig funktionalitet. Använd dig av eventlyssnare, samt tillståndsvariabler, för att automatiskt uppdatera varukorgens saldo varje gång en användare klickar på *Add to cart*.  
 
 Använd er av ```books.json``` för data till era objekt. Välj själva vilka delar av objekten ni vill rendera ut. Skissen behöver naturligtvis inte följas, den är bara ett förslag.
 
@@ -43,3 +43,10 @@ Koppla ihop varje datapunkt ( klass, titel, förnamn, efternamn, godkänner ) me
 
 #### Steg 2
 Lyssna efter ett klickevent på knappen. Vid klick skall du bygga ihop all data till ett bokningsobjekt som du sedan antingen console.loggar ut, alt. presenterar på skärmen för användare på ett snyggt sätt.
+
+### React Bootcamp
+[I detta dokument](https://docs.google.com/document/d/15Ez_E2d3mh7NuDa60A3Lj-4rZZc52eN7I05PhYwtvk8/edit?usp=sharing) finner ni uppgifter som ni nu bör kunna utföra (även useState!!!).
+
+### Valfritt projekt
+Arbeta vidare på ditt valfria projekt, alt. påbörja ett nytt, där du nu kan försöka implementera tillståndsvariabler för att göra din sida mer dynamisk. Precis som tidigare ligger det en massa data i *assets* som ni kan använda er av.
+

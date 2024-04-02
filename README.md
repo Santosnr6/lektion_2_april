@@ -1,7 +1,7 @@
 # Lektion 2 april
 
 ## Presentation
-- [State / Tillståndshantering]().
+- [State / Tillståndshantering](https://docs.google.com/presentation/d/16eAZ9tNfJPZMZjbe5FVVC75icgbYzMYl/edit?usp=sharing&ouid=117251319654116712560&rtpof=true&sd=true).
 
 ## Länkar
 - [Officiell dokumentation](https://reactjs.org/).

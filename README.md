@@ -17,11 +17,11 @@
 Hittar ni i mappen [Övningar](https://github.com/Santosnr6/lektion_2_april/tree/main/%C3%96vningar).
 
 ## Liveföreläsning
-- [Repetition props + events]().
-- [Tillståndshantering]().
+- [Repetition props + events](https://vimeo.com/929818732/a42c4e1913?share=copy).
+- [Tillståndshantering](https://vimeo.com/manage/videos/929818799/b4bc5f5c99).
 
 ## Extraresurser
-
+- [useState-hooken](https://vimeo.com/653010766/e5844f3234).
 
 ## Studerandegrupper
 Ni som är intresserade av att delta i studerandegrupper kan skriva in er i valfri grupp [här](https://docs.google.com/document/d/179YYbPcJSsOzk_GbDWZUCH55reVrCRdyAnLf8lafguY/edit?usp=sharing). Om någon hamnar ensam i en grupp så kommer jag att flytta den personen till en annan grupp som innehåller andra studerande.

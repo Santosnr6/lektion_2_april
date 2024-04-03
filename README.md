@@ -19,6 +19,7 @@ Hittar ni i mappen [Övningar](https://github.com/Santosnr6/lektion_2_april/tree
 ## Liveföreläsning
 - [Repetition props + events](https://vimeo.com/929818732/a42c4e1913?share=copy).
 - [Tillståndshantering](https://vimeo.com/manage/videos/929818799/b4bc5f5c99).
+- [Repetition 3 april](https://vimeo.com/930262676/530454b0d1?share=copy).
 
 ## Extraresurser
 - [useState-hooken](https://vimeo.com/653010766/e5844f3234).

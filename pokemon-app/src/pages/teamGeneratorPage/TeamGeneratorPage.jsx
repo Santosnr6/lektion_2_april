@@ -28,6 +28,28 @@ function TeamGeneratorPage() {
         const generatedPokemon = pokemonListCopy.splice(Math.floor(Math.random() * pokemonListCopy.length), 1);
         setGeneratedPokemons(g => [...g, generatedPokemon[0]]);
       }
+    } else {
+      const typeMatchArray = [];
+      pokemonList.filter(pokemon => {
+        pokemon.type.forEach(type => {
+          if(type.name.toLowerCase() === formInput.toLowerCase()) {
+            typeMatchArray.push(pokemon);
+          }
+        });
+      });
+      if(typeMatchArray.length === 0) {
+        console.log('Inga pokemons kunde hittas!');
+      } else if(typeMatchArray.length <= formAmount) {
+        setGeneratedPokemons(typeMatchArray);
+      } else {
+        const selectedPokemons = [];
+        for(let i = 0; i < formAmount; i++) {
+          const randomIndex = Math.floor(Math.random() * typeMatchArray.length);
+          selectedPokemons.push(typeMatchArray[randomIndex]);
+          typeMatchArray.splice(randomIndex, 1);
+        }
+        setGeneratedPokemons(selectedPokemons);
+      }
     }
   }
 

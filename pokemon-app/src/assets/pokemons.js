@@ -2634,3 +2634,5 @@ let pokemons = [
         }
     }
 ];
+
+export default pokemons;

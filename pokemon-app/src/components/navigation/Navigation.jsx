@@ -1,7 +1,7 @@
 import NavItem from '../navItem/NavItem';
 import './navigation.css';
 
-function Navigation() {
+function Navigation({ direction }) {
     const navItems = [
         'Pokédex',
         'Team Generator',
@@ -10,7 +10,9 @@ function Navigation() {
 
   return (
     <nav>
-        <ul className="navigation-list">
+        <ul
+            className={ "navigation-list " + direction }
+        >
             {
                 navItems.map((navItem, index) => {
                     return <NavItem 

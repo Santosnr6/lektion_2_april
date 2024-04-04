@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="page-header">
         <Logo />
-        <Navigation />
+        <Navigation direction={ 'nav-row' } />
     </header>
   )
 }

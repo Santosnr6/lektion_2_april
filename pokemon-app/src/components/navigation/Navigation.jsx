@@ -3,9 +3,19 @@ import './navigation.css';
 
 function Navigation({ direction }) {
     const navItems = [
-        'Pokédex',
-        'Team Generator',
-        'Search Pokémons'
+        {
+            page : 'Pokédex',
+            path : '/',
+        }, {
+            page : 'Team Generator',
+            path : '/teamGen'
+        }, {
+            page : 'Search Pokémon',
+            path : '/search'
+        }
+        // 'Pokédex',
+        // 'Team Generator',
+        // 'Search Pokémons'
     ];
 
   return (
@@ -17,7 +27,8 @@ function Navigation({ direction }) {
             {
                 navItems.map((navItem, index) => {
                     return <NavItem 
-                               title={ navItem }
+                               title={ navItem.page }
+                               path={ navItem.path }
                                key={ index } 
                            />
                 })

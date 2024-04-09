@@ -1,9 +1,9 @@
 import './navItem.css';
 
-function NavItem({ title }) {
+function NavItem({ title, path }) {
   return (
     <li className="nav-item">
-        { title }
+      { title }
     </li>
   )
 }

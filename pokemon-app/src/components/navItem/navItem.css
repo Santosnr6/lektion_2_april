@@ -1,7 +1,7 @@
 .nav-item {
     padding: 1rem;
-    color: var(--pokemon-yellow);
     font-size: 1.5rem;
+    color: var(--pokemon-yellow);
     font-weight: 600;
     cursor: pointer;
 }

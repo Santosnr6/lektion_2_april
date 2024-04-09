@@ -1,10 +1,7 @@
 import './pokedexPage.css';
-import pokemonObjects from '../../assets/pokemons.js';
-import { useState} from 'react';
 import PokemonCard from '../../components/pokemonCard/PokemonCard.jsx';
 
-function PokedexPage() {
-    const [pokemonList, setPokemonList] = useState([...pokemonObjects]);
+function PokedexPage({ pokemonList }) {
     console.log(pokemonList);
 
   return (

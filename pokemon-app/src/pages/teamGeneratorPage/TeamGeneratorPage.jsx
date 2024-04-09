@@ -1,13 +1,11 @@
 import GeneratorForm from '../../components/generatorForm/GeneratorForm';
 import './teamGeneratorPage.css';
 import { useState } from 'react';
-import pokemonObjects from '../../assets/pokemons.js';
 import PokemonCard from '../../components/pokemonCard/PokemonCard';
 
-function TeamGeneratorPage() {
+function TeamGeneratorPage({ pokemonList }) {
   const [formInput, setFormInput] = useState('');
   const [formAmount, setFormAmount] = useState(1);
-  const [pokemonList, setPokemonList] = useState([...pokemonObjects]);
   const [generatedPokemons, setGeneratedPokemons] = useState([]);
 
   const handleInput = (event) => {
